@@ -21,6 +21,14 @@ namespace WinFormsApp2
             item.SubItems.Add("1.50€");
             listView1.Items.Add(item);
         }
+
+        private void tabPage1_Click(object sender, EventArgs e)
+        {
+            if (tabControl1.SelectedTab == tabPage1)
+            {
+            
+        }
+    }
     }
 
 }
